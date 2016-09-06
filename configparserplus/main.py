@@ -8,6 +8,7 @@ from configparserplus.compat import ConfigParser, StringIO
 
 
 def render_template(jinja_template):
+    jinja_template = os.path.abspath(jinja_template)
     paths = [x[0] for x in os.walk(os.path.dirname(jinja_template))]
 
     environment = Environment(loader=FileSystemLoader(paths))
