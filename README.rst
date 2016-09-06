@@ -3,7 +3,7 @@ configparserplus (a.k.a. ".ini is boring.")
 
 If you have to use .ini files on your projects you probably realized that the lack of a decent hierarchy between settings files just sucks.
 
-**configparserplus allows you to use `Jinja2 <http://jinja.pocoo.org/>`_ on your .ini files** so you don't need to ctrl-C, ctrl-V your settings in your N config files. Seriously, never do it again. Just. Never.
+**configparserplus allows you to use Jinja2 templating language on your .ini files** so you don't need to ctrl-C, ctrl-V your settings in your N config files. Seriously, never do it again. Just. Never.
 
 
 Installation:
