@@ -1,4 +1,3 @@
-include *.txt
-include README.rst
-include tests/*
-
+include LICENSE
+include README.md
+recursive-exclude tests *

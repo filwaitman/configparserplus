@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
-import unittest
-from configparserplus import ConfigParserPlus
 import os
+import unittest
+
+from configparserplus import ConfigParserPlus
 
 fixtures_dir = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'fixtures')
 
