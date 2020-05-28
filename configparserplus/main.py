@@ -4,7 +4,7 @@ import sys
 
 from jinja2 import Environment, FileSystemLoader, StrictUndefined
 
-from configparserplus.compat import ConfigParser, StringIO
+from .compat import ConfigParser, StringIO
 
 
 def render_template(jinja_template):
